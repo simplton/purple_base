@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo 12 >> adder
+
+git pull
+
+git status
+
+git add .
+
+git commit -n -m 'here we go again'
+
+git push
