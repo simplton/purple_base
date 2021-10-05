@@ -1,0 +1,17 @@
+#!/bin/bash 
+COUNTER=0
+NUMBEROFTIMES=$(shuf -i 2-7 -n 1)
+while [  $COUNTER -lt $NUMBEROFTIMES ]; do
+  ./runMe
+  let COUNTER=COUNTER+1 
+done
+
+echo ''
+echo ''
+echo ''
+echo ''
+echo 'All done'
+echo $NUMBEROFTIMES
+echo ''
+echo ''
+echo '
