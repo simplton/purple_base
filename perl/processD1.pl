@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-open FILE, "Day1input";
+open FILE, "input_1";
 my @shifts;
 my $SUM = 0;
 my %frequencys;
